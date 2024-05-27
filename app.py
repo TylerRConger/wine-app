@@ -93,6 +93,8 @@ def get_user_input():
             }
     data = pd.DataFrame(features,index=[0])
 
+    print(data)
+
     return data
 
 user_input_df = get_user_input()
