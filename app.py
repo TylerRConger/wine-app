@@ -54,7 +54,7 @@ This app predicts the ** Quality of Wine **  using **wine features** input via t
 
 #read in wine image and render with streamlit
 image = Image.open('wine_image.png')
-st.image(image, caption='wine company',use_column_width=True)
+st.image(image, caption='',use_column_width=True)
 
 st.sidebar.header('User Input Parameters') #user input parameter collection with streamlit side bar
 
